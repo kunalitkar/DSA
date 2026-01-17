@@ -9,7 +9,7 @@ public:
         int i=n-1;
         while(i>=0){
             
-            if(i>=0 && ((num[i]%2)!=0)){
+            if(i>=0 && (((num[i]-'0')%2)!=0)){
                 for(int j=0; j<=i; j++){
                     ans += num[j];
                 }
