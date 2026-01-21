@@ -4,6 +4,7 @@ This repository contains topic-wise Data Structures and Algorithms solutions in 
 
 ## Topics Covered
 - Arrays
+- Sortings
 - Strings
 - Linked List
 - Stack & Queue
