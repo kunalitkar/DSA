@@ -28,7 +28,7 @@ public:
 
         return sum;
     }
-};
+};// End of Solution class
 
 int main() {
     Solution sol;
