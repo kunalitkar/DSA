@@ -12,19 +12,16 @@ public:
             unordered_map<char, int> freq;
 
             for (int j = i; j < n; j++) {
-                // Increase frequency of current character
                 freq[s[j]]++;
 
                 int maxi = INT_MIN;
                 int mini = INT_MAX;
 
-                // Find max and min frequency
                 for (auto it : freq) {
                     mini = min(mini, it.second);
                     maxi = max(maxi, it.second);
                 }
 
-                // Add difference to sum
                 sum += (maxi - mini);
             }
         }
